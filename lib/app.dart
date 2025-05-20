@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter/material.dart';
 import 'package:ostad_practice/flutter_class_3.dart';
+import 'package:ostad_practice/module_10/login.dart';
 import 'package:ostad_practice/module_8/class_1.dart';
 import 'package:ostad_practice/module_8/class_2.dart';
 import 'package:ostad_practice/module_8/data_passing_via_routing.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: classThree(),
+      child: login(),
     );
   }
 }
