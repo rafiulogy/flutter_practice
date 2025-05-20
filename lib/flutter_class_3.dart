@@ -148,7 +148,6 @@ class flutter_class_2 extends StatelessWidget {
         },
         child: Icon(Icons.add),
         backgroundColor: Colors.green,
-
       ),
     );
   }
