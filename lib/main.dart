@@ -7,16 +7,16 @@ import 'package:device_preview/device_preview.dart';
 
 // +++++++++++Main Function Starts ++++++++++++++++
 
-void main() => runApp(
-  DevicePreview(
-    enabled: !kReleaseMode,
-    builder: (context) => MyApp(), // Wrap your app
-  ),
-);
+// void main() => runApp(
+//   DevicePreview(
+//     enabled: !kReleaseMode,
+//     builder: (context) => MyApp(), // Wrap your app
+//   ),
+// );
 
-// void main() {
-//   runApp(MyApp());
-// }
+void main() {
+  runApp(MyApp());
+}
 
 
 // ++++++++++++++++++++++++++++++++
