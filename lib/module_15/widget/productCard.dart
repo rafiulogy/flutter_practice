@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:ostad_practice/module_14/models/productModel.dart';
+import 'package:ostad_practice/module_15/models/productModel.dart';
 
 class productCard extends StatelessWidget {
   final VoidCallback onEdit;
